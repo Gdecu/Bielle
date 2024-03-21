@@ -15,7 +15,7 @@ q = 43e6                        # [J / kg_air]
 Vmax = (np.pi * (D**2) *C) / 4  # [V]
 gamma = 1.3                     # [-]
 
-beta = (2 * L) / C
+beta = (2 * L) / C # test
 
 
 def Qtot(s):
