@@ -16,8 +16,6 @@ Vmax = (np.pi * (D**2) *C) / 4  # [V]
 gamma = 1.3                     # [-]
 beta = (2 * L) / C
 
-def dQ(theta, thetaC, deltaThetaC, m_air):
-    return (Qtot * m_air * 0.5 * np.pi * np.sin((np.pi * (theta - thetaC)) / deltaThetaC)) 
 
 def F_pied(theta, p, omega):
     return (np.pi * (D/2) ** 2) * p + mpiston * (D / 2) * (omega ** 2 ) * np.cos(theta)
